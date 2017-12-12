@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dumai.xianjindai.activity.FinancialProofActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/pixel_size_26"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="@dimen/text_size_16">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/text_size_16"
+            android:layout_marginRight="@dimen/text_size_16"
+            android:gravity="right"
+            android:text="@string/proof_material"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_14" />
+
+        <GridView
+            android:id="@+id/grid_material"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:horizontalSpacing="@dimen/pixel_size_2"
+            android:numColumns="3"
+            android:verticalSpacing="@dimen/pixel_size_2" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_can_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_size_14"
+        android:autoLink="web"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:text="@string/educa_can_upload"
+        android:textColor="@color/darkgray"
+        android:textSize="@dimen/text_size_14" />
+
+    <com.dumai.xianjindai.view.LoadingButton
+        android:id="@+id/loading_btn"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_login_bg"
+        android:text="@string/submit_btn"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/pixel_size_16" />
+
+</LinearLayout>

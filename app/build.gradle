@@ -1,0 +1,100 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+apply plugin: 'com.github.dcendents.android-maven'//pickers选择器 mavern配置
+
+android {
+    signingConfigs {
+        release {
+            keyAlias 'xianjindai'
+            keyPassword 'dumai123'
+            storeFile file('../xianjindai')
+            storePassword 'dumai123'
+        }
+    }
+    compileSdkVersion 25
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+        applicationId "com.dumai.xianjindai"
+        minSdkVersion 14
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled = true
+//        ndk {
+//            //选择要添加的对应cpu类型的.so库。
+//            abiFilters 'armeabi-v7a'
+//            // 还可以添加 , 'mips', 'mips64', 'armeabi-v8a', 'x86', 'x86_64', 'armeabi'
+//        }
+    }
+    buildTypes {
+        release {
+            // 不显示Log, 在java代码中的调用方式为：BuildConfig.LOG_DEBUG
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            //zipAlign 优化
+            zipAlignEnabled true
+            //移动无用的resources 文件
+            shrinkResources false
+            //true表示编译时会混淆代码
+            minifyEnabled false
+            //混淆配置文件
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+        debug {
+            // 显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            minifyEnabled false
+            zipAlignEnabled true
+            shrinkResources false
+            signingConfig signingConfigs.release
+        }
+    }
+    //解决打包国际化问题
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/eventbus.jar')
+    compile files('libs/android-logging-log4j-1.0.3.jar')
+    compile files('libs/log4j-1.2.17.jar')
+    compile 'com.android.support:appcompat-v7:24.1.1'
+    compile 'com.android.support:recyclerview-v7:23.4.0'
+    compile 'com.android.support:design:23.4.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.google.code.gson:gson:2.5'
+    compile 'com.jakewharton:butterknife:8.1.0'
+    compile 'com.google.dagger:dagger:2.7'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'jp.wasabeef:picasso-transformations:2.1.0'
+    compile 'com.orhanobut:logger:2.1.1'
+    compile 'com.github.wuzhendev:android-wgallery:1.0.0'
+    compile 'com.squareup.leakcanary:leakcanary-android:1.5'
+    compile 'com.alibaba:fastjson:1.1.56.android'
+    compile 'com.github.florent37:viewanimator:1.0.5'
+    compile 'com.squareup.okhttp3:okhttp:3.9.1'
+    compile "com.mcxiaoke.volley:library:1.0.+"
+    compile 'com.github.bumptech.glide:glide:3.6.1'
+    compile 'com.github.chrisbanes.photoview:library:+'
+    compile 'com.zxy.android:tiny:0.0.6'
+    compile 'org.litepal.android:core:1.6.0'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.7'
+    apt 'com.jakewharton:butterknife-compiler:8.1.0'
+    apt 'com.google.dagger:dagger-compiler:2.7'
+}
+repositories {
+    maven {
+        //gallery画廊 mavern网络库
+        url "https://jitpack.io"
+    }
+}
+

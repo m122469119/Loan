@@ -1,0 +1,290 @@
+[
+  {
+    "areaId": "110000",
+    "areaName": "自由职业",
+    "cities": [
+      {
+        "areaId": "110100",
+        "areaName": "无业",
+        "counties": [
+          {
+            "areaId": "",
+            "areaName": ""
+          }
+        ]
+      },
+      {
+        "areaId": "110200",
+        "areaName": "务农",
+        "counties": [
+          {
+            "areaId": "",
+            "areaName": ""
+          }
+        ]
+      },
+      {
+        "areaId": "110300",
+        "areaName": "家庭主妇",
+        "counties": [
+          {
+            "areaId": "",
+            "areaName": ""
+          }
+        ]
+      },
+      {
+        "areaId": "110400",
+        "areaName": "钟点工",
+        "counties": [
+          {
+            "areaId": "",
+            "areaName": ""
+          }
+        ]
+      },
+      {
+        "areaId": "110500",
+        "areaName": "临时工",
+        "counties": [
+          {
+            "areaId": "",
+            "areaName": ""
+          }
+        ]
+      },
+      {
+        "areaId": "110600",
+        "areaName": "证券投资",
+        "counties": [
+          {
+            "areaId": "",
+            "areaName": ""
+          }
+        ]
+      },
+      {
+        "areaId": "110700",
+        "areaName": "个体运输",
+        "counties": [
+          {
+            "areaId": "",
+            "areaName": ""
+          }
+        ]
+      },
+      {
+        "areaId": "110800",
+        "areaName": "流动摊贩",
+        "counties": [
+          {
+            "areaId": "",
+            "areaName": ""
+          }
+        ]
+      },
+      {
+        "areaId": "110900",
+        "areaName": "游戏代练",
+        "counties": [
+          {
+            "areaId": "",
+            "areaName": ""
+          }
+        ]
+      },
+      {
+        "areaId": "111000",
+        "areaName": "其他",
+        "counties": [
+          {
+            "areaId": "",
+            "areaName": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "areaId": "120000",
+    "areaName": "工薪族",
+    "cities": [
+      {
+        "areaId": "120100",
+        "areaName": "政府机关",
+        "counties": [
+          {
+            "areaId": "",
+            "areaName": ""
+          }
+        ]
+      },
+      {
+        "areaId": "120200",
+        "areaName": "学校",
+        "counties": [
+          {
+            "areaId": "120202",
+            "areaName": "幼儿园"
+          },
+          {
+            "areaId": "120203",
+            "areaName": "小学"
+          },
+          {
+            "areaId": "120204",
+            "areaName": "初中"
+          },
+          {
+            "areaId": "120205",
+            "areaName": "高中"
+          },
+          {
+            "areaId": "120206",
+            "areaName": "技校"
+          },
+          {
+            "areaId": "120207",
+            "areaName": "中专"
+          },
+          {
+            "areaId": "120208",
+            "areaName": "大学"
+          },
+          {
+            "areaId": "120209",
+            "areaName": "其他"
+          }
+        ]
+      },
+      {
+        "areaId": "120300",
+        "areaName": "医院",
+        "counties": [
+          {
+            "areaId": "120302",
+            "areaName": "民办"
+          },
+          {
+            "areaId": "120303",
+            "areaName": "1级"
+          },
+          {
+            "areaId": "120304",
+            "areaName": "2级"
+          },
+          {
+            "areaId": "120305",
+            "areaName": "3级"
+          },
+          {
+            "areaId": "120306",
+            "areaName": "其他"
+          }
+        ]
+      },
+      {
+        "areaId": "120400",
+        "areaName": "企业公司",
+        "counties": [
+          {
+            "areaId": "120402",
+            "areaName": "国有"
+          },
+          {
+            "areaId": "120403",
+            "areaName": "股份"
+          },
+          {
+            "areaId": "120404",
+            "areaName": "私营"
+          },
+          {
+            "areaId": "120405",
+            "areaName": "外资"
+          },
+          {
+            "areaId": "120406",
+            "areaName": "合资"
+          },
+          {
+            "areaId": "120506",
+            "areaName": "其他"
+          }
+        ]
+      },
+      {
+        "areaId": "120500",
+        "areaName": "私营商铺",
+        "counties": [
+          {
+            "areaId": "",
+            "areaName": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "areaId": "130000",
+    "areaName": "私营业主",
+    "cities": [
+      {
+        "areaId": "130100",
+        "areaName": "个体工商户",
+        "counties": [
+          {
+            "areaId": "",
+            "areaName": ""
+          }
+        ]
+      },
+      {
+        "areaId": "130200",
+        "areaName": "企业法人",
+        "counties": [
+          {
+            "areaId": "",
+            "areaName": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "areaId": "140000",
+    "areaName": "网店卖家",
+    "cities": [
+      {
+        "areaId": "140100",
+        "areaName": "淘宝店主",
+        "counties": [
+          {
+            "areaId": "",
+            "areaName": ""
+          }
+        ]
+      },
+      {
+        "areaId": "140200",
+        "areaName": "微店",
+        "counties": [
+          {
+            "areaId": "",
+            "areaName": ""
+          }
+        ]
+      },
+      {
+        "areaId": "140300",
+        "areaName": "其他网店",
+        "counties": [
+          {
+            "areaId": "",
+            "areaName": ""
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dumai.xianjindai.activity.UrgentContactsActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <com.dumai.xianjindai.view.PagerScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/pixel_size_6"
+                android:layout_marginLeft="@dimen/pixel_size_26"
+                android:layout_marginRight="@dimen/pixel_size_32"
+                android:layout_marginTop="@dimen/pixel_size_14"
+                android:text="@string/contacts_1"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_16" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/pixel_size_10"
+                    android:layout_marginLeft="@dimen/pixel_size_26"
+                    android:layout_marginRight="@dimen/pixel_size_50"
+                    android:layout_marginTop="@dimen/pixel_size_10"
+                    android:text="@string/contacts_1_relation"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_16" />
+
+                <LinearLayout
+                    android:id="@+id/ll_contacts_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_relation_1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:hint="@string/contacts_1_relation"
+                        android:maxLength="20"
+                        android:maxLines="1"
+                        android:textColorHint="@color/darkgray"
+                        android:textSize="@dimen/text_size_16" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="@dimen/pixel_size_28"
+                        android:background="@drawable/icon_open" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gainsboro" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/pixel_size_10"
+                    android:layout_marginLeft="@dimen/pixel_size_26"
+                    android:layout_marginRight="@dimen/pixel_size_50"
+                    android:layout_marginTop="@dimen/pixel_size_10"
+                    android:text="@string/lineal_name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_16" />
+
+                <LinearLayout
+                    android:id="@+id/ll_contacts_1_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:hint="@string/contacts_1_name"
+                        android:maxLength="20"
+                        android:maxLines="1"
+                        android:textColorHint="@color/darkgray"
+                        android:textSize="@dimen/text_size_16" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="@dimen/pixel_size_20"
+                        android:background="@drawable/icon_contact" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gainsboro" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/pixel_size_10"
+                    android:layout_marginLeft="@dimen/pixel_size_26"
+                    android:layout_marginRight="@dimen/pixel_size_50"
+                    android:layout_marginTop="@dimen/pixel_size_10"
+                    android:text="@string/tv_lineal_phone"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_16" />
+
+                <LinearLayout
+                    android:id="@+id/ll_contacts_1_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/tv_phone_1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:hint="@string/tv_contacts_1_phone"
+                        android:maxLength="20"
+                        android:maxLines="1"
+                        android:textColorHint="@color/darkgray"
+                        android:textSize="@dimen/text_size_16" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/pixel_size_6"
+                android:layout_marginLeft="@dimen/pixel_size_26"
+                android:layout_marginRight="@dimen/pixel_size_32"
+                android:layout_marginTop="@dimen/pixel_size_26"
+                android:text="@string/contacts_2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_16" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/pixel_size_10"
+                    android:layout_marginLeft="@dimen/pixel_size_26"
+                    android:layout_marginRight="@dimen/pixel_size_50"
+                    android:layout_marginTop="@dimen/pixel_size_10"
+                    android:text="@string/contacts_2_relation"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_16" />
+
+                <LinearLayout
+                    android:id="@+id/ll_contacts_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_relation_2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:hint="@string/lineal_relation"
+                        android:maxLength="20"
+                        android:maxLines="1"
+                        android:textColorHint="@color/darkgray"
+                        android:textSize="@dimen/text_size_16" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="@dimen/pixel_size_28"
+                        android:background="@drawable/icon_open" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gainsboro" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/pixel_size_10"
+                    android:layout_marginLeft="@dimen/pixel_size_26"
+                    android:layout_marginRight="@dimen/pixel_size_50"
+                    android:layout_marginTop="@dimen/pixel_size_10"
+                    android:text="@string/lineal_name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_16" />
+
+                <LinearLayout
+                    android:id="@+id/ll_contacts_2_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:hint="@string/contacts_2_name"
+                        android:maxLength="20"
+                        android:maxLines="1"
+                        android:textColorHint="@color/darkgray"
+                        android:textSize="@dimen/text_size_16" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="@dimen/pixel_size_20"
+                        android:background="@drawable/icon_contact" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gainsboro" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/pixel_size_10"
+                    android:layout_marginLeft="@dimen/pixel_size_26"
+                    android:layout_marginRight="@dimen/pixel_size_50"
+                    android:layout_marginTop="@dimen/pixel_size_10"
+                    android:text="@string/tv_lineal_phone"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_16" />
+
+                <LinearLayout
+                    android:id="@+id/ll_contacts_2_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/tv_phone_2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:hint="@string/contacts_2_phone"
+                        android:maxLength="20"
+                        android:maxLines="1"
+                        android:textColorHint="@color/darkgray"
+                        android:textSize="@dimen/text_size_16" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/pixel_size_6"
+                android:layout_marginLeft="@dimen/pixel_size_26"
+                android:layout_marginRight="@dimen/pixel_size_32"
+                android:layout_marginTop="@dimen/pixel_size_26"
+                android:text="@string/contacts_3"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_16" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/pixel_size_10"
+                    android:layout_marginLeft="@dimen/pixel_size_26"
+                    android:layout_marginRight="@dimen/pixel_size_50"
+                    android:layout_marginTop="@dimen/pixel_size_10"
+                    android:text="@string/contacts_3_relation"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_16" />
+
+                <LinearLayout
+                    android:id="@+id/ll_contacts_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_relation_3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:hint="@string/lineal_relation"
+                        android:maxLength="20"
+                        android:maxLines="1"
+                        android:textColorHint="@color/darkgray"
+                        android:textSize="@dimen/text_size_16" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="@dimen/pixel_size_28"
+                        android:background="@drawable/icon_open" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gainsboro" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/pixel_size_10"
+                    android:layout_marginLeft="@dimen/pixel_size_26"
+                    android:layout_marginRight="@dimen/pixel_size_50"
+                    android:layout_marginTop="@dimen/pixel_size_10"
+                    android:text="@string/lineal_name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_16" />
+
+                <LinearLayout
+                    android:id="@+id/ll_lineal_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:hint="@string/contacts_3_name"
+                        android:maxLength="20"
+                        android:maxLines="1"
+                        android:textColorHint="@color/darkgray"
+                        android:textSize="@dimen/text_size_16" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="@dimen/pixel_size_20"
+                        android:background="@drawable/icon_contact" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gainsboro" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/pixel_size_10"
+                    android:layout_marginLeft="@dimen/pixel_size_26"
+                    android:layout_marginRight="@dimen/pixel_size_50"
+                    android:layout_marginTop="@dimen/pixel_size_10"
+                    android:text="@string/tv_lineal_phone"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_16" />
+
+                <LinearLayout
+                    android:id="@+id/ll_lineal_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/textView4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:hint="@string/contacts_3_phone"
+                        android:maxLength="20"
+                        android:maxLines="1"
+                        android:textColorHint="@color/darkgray"
+                        android:textSize="@dimen/text_size_16" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <com.dumai.xianjindai.view.LoadingButton
+                android:id="@+id/loading_btn"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/button_login_bg"
+                android:text="@string/submit_btn"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/pixel_size_16" />
+        </LinearLayout>
+    </com.dumai.xianjindai.view.PagerScrollView>
+</LinearLayout>

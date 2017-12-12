@@ -1,0 +1,78 @@
+<resources>
+
+    <!-- 字体大小 -->
+    <dimen name="text_size_222">222sp</dimen>
+    <dimen name="text_size_100">100sp</dimen>
+    <dimen name="text_size_80">80sp</dimen>
+    <dimen name="text_size_68">68sp</dimen>
+    <dimen name="text_size_62">62sp</dimen>
+    <dimen name="text_size_52">52sp</dimen>
+    <dimen name="text_size_50">50sp</dimen>
+    <dimen name="text_size_48">48sp</dimen>
+    <dimen name="text_size_42">42sp</dimen>
+    <dimen name="text_size_32">32sp</dimen>
+    <dimen name="text_size_26">26sp</dimen>
+    <dimen name="text_size_22">22sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_9">9sp</dimen>
+    <dimen name="text_size_8">8sp</dimen>
+    <dimen name="text_size_7">7sp</dimen>
+    <dimen name="text_size_6">6sp</dimen>
+    <dimen name="text_size_5">5sp</dimen>
+    <dimen name="text_size_4">4sp</dimen>
+    <dimen name="text_size_3">3sp</dimen>
+    <dimen name="text_size_2">2sp</dimen>
+    <dimen name="text_size_1">1sp</dimen>
+
+    <!-- 像素大小 -->
+    <dimen name="pixel_size_1">1dp</dimen>
+    <dimen name="pixel_size_2">2dp</dimen>
+    <dimen name="pixel_size_3">3dp</dimen>
+    <dimen name="pixel_size_4">4dp</dimen>
+    <dimen name="pixel_size_5">5dp</dimen>
+    <dimen name="pixel_size_6">6dp</dimen>
+    <dimen name="pixel_size_7">7dp</dimen>
+    <dimen name="pixel_size_8">8dp</dimen>
+    <dimen name="pixel_size_9">9dp</dimen>
+    <dimen name="pixel_size_10">10dp</dimen>
+    <dimen name="pixel_size_11">11dp</dimen>
+    <dimen name="pixel_size_12">12dp</dimen>
+    <dimen name="pixel_size_13">13dp</dimen>
+    <dimen name="pixel_size_14">14dp</dimen>
+    <dimen name="pixel_size_15">15dp</dimen>
+    <dimen name="pixel_size_16">16dp</dimen>
+    <dimen name="pixel_size_17">17dp</dimen>
+    <dimen name="pixel_size_18">18dp</dimen>
+    <dimen name="pixel_size_19">19dp</dimen>
+    <dimen name="pixel_size_20">20dp</dimen>
+    <dimen name="pixel_size_21">21dp</dimen>
+    <dimen name="pixel_size_22">22dp</dimen>
+    <dimen name="pixel_size_26">26dp</dimen>
+    <dimen name="pixel_size_28">28dp</dimen>
+    <dimen name="pixel_size_32">32dp</dimen>
+    <dimen name="pixel_size_36">36dp</dimen>
+    <dimen name="pixel_size_40">40dp</dimen>
+    <dimen name="pixel_size_46">46dp</dimen>
+    <dimen name="pixel_size_50">50dp</dimen>
+    <dimen name="pixel_size_56">56dp</dimen>
+    <dimen name="pixel_size_60">60dp</dimen>
+    <dimen name="pixel_size_66">66dp</dimen>
+    <dimen name="pixel_size_72">72dp</dimen>
+    <dimen name="pixel_size_80">80dp</dimen>
+    <dimen name="pixel_size_100">100dp</dimen>
+    <dimen name="pixel_size_116">116dp</dimen>
+    <dimen name="pixel_size_120">120dp</dimen>
+    <dimen name="pixel_size_130">130dp</dimen>
+    <dimen name="pixel_size_140">140dp</dimen>
+    <dimen name="pixel_size_180">180dp</dimen>
+    <dimen name="pixel_size_200">200dp</dimen>
+    <dimen name="pixel_size_220">220dp</dimen>
+    <dimen name="pixel_size_240">240dp</dimen>
+    <dimen name="pixel_size_260">260dp</dimen>
+
+</resources>

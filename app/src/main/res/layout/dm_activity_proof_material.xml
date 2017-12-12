@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dumai.xianjindai.activity.ProofMaterialActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/pixel_size_6"
+        android:layout_marginLeft="@dimen/pixel_size_20"
+        android:layout_marginRight="@dimen/pixel_size_32"
+        android:layout_marginTop="@dimen/pixel_size_14"
+        android:text="@string/real_info"
+        android:textColor="@color/darkgray"
+        android:textSize="@dimen/text_size_14" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/pixel_size_14"
+        android:background="@color/gainsboro" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_work_proof"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/pixel_size_46"
+            android:layout_marginLeft="@dimen/pixel_size_18"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10.0dip"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:text="@string/work_proof"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_16" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/pixel_size_16"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10.0dip"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical|right"
+                    android:text="@string/uncommitted"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/text_size_14" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/icon_next" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/text_size_26"
+            android:background="@color/gainsboro" />
+
+        <LinearLayout
+            android:id="@+id/ll_financial_proof"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/pixel_size_46"
+            android:layout_marginLeft="@dimen/pixel_size_18"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10.0dip"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:text="@string/financial_proof"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_16" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/pixel_size_16"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10.0dip"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical|right"
+                    android:text="@string/uncommitted"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/text_size_14" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/icon_next" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gainsboro" />
+
+        <LinearLayout
+            android:id="@+id/ll_education_proof"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/pixel_size_46"
+            android:layout_marginLeft="@dimen/pixel_size_18"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10.0dip"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:text="@string/education_proof"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_16" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/pixel_size_16"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10.0dip"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical|right"
+                    android:text="@string/uncommitted"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/text_size_14" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/icon_next" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gainsboro" />
+    </LinearLayout>
+
+</LinearLayout>

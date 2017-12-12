@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dumai.xianjindai.activity.RegisterActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/pixel_size_20"
+        android:background="@color/gainsboro" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/pixel_size_56"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_phone_number"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/pixel_size_18"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="@string/ple_phone_number"
+            android:inputType="number"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:textColorHint="@color/darkgray"
+            android:textSize="@dimen/text_size_16" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gainsboro" />
+
+    <LinearLayout
+        android:id="@+id/ll_my_credit_card_number"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/pixel_size_56"
+        android:background="@color/white"
+        android:clickable="true"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/tv_my_credit_card_number"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/pixel_size_18"
+            android:layout_weight="2"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="@string/verifica_code"
+            android:inputType="number"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:textColorHint="@color/darkgray"
+            android:textSize="@dimen/text_size_16" />
+
+        <Button
+            android:id="@+id/btn_send_ver_code"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/pixel_size_40"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_weight="1"
+            android:background="@drawable/button_login_bg"
+            android:gravity="center"
+            android:text="@string/send_ver_code"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_16" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gainsboro" />
+
+    <TextView
+        android:id="@+id/registerAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="@dimen/pixel_size_18"
+        android:text="@string/cannot_receive_code"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/text_size_14" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gainsboro" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/pixel_size_56"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/pixel_size_18"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="@string/setting_psd"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:textColorHint="@color/darkgray"
+            android:textSize="@dimen/text_size_16" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gainsboro" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/pixel_size_20"
+        android:background="@color/gainsboro" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/pixel_size_56"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_invita_code"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/pixel_size_18"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="@string/invita_code"
+            android:inputType="number"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:textColorHint="@color/darkgray"
+            android:textSize="@dimen/text_size_16" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gainsboro" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="@dimen/pixel_size_18"
+        android:text="@string/agreement"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/text_size_12" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/button_login_bg"
+        android:gravity="center"
+        android:text="@string/btn_register"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size_16" />
+
+</LinearLayout>

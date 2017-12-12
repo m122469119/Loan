@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">现金贷</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="user_id">请输入手机号</string>
+    <string name="password">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+
+    <!--loadingframe-->
+    <string name="loading">正在加载数据...</string>
+    <string name="network_load_error">网络不太顺畅,刷新试试</string>
+    <string name="refresh_try">点击刷新</string>
+    <string name="no_content">暂无内容</string>
+    <!--loadingframe-->
+
+    <!--xrecyclerView-->
+    <string name="listview_header_hint_normal">下拉刷新</string>
+    <string name="listview_header_hint_release">释放立即刷新</string>
+    <string name="listview_loading">正在加载...</string>
+    <string name="nomore_loading">没有了</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_done">刷新完成</string>
+    <string name="loading_done">加载完成</string>
+    <string name="listview_header_last_time">上次更新时间：</string>
+    <!--xrecyclerView-->
+
+    <!--首页-->
+    <string name="tv_repayment">我要还款</string>
+    <string name="tv_schedule">进度查询</string>
+    <string name="tv_rate">费率查询</string>
+    <string name="str_loan">去借款</string>
+
+    <!--我-->
+    <string name="action_message">消息</string>
+    <string name="my_data">我的资料</string>
+    <string name="bank_card">借款银行卡</string>
+    <string name="history">历史记录</string>
+    <string name="referee">我的推荐人</string>
+    <string name="username">用户名</string>
+    <string name="my_phone">17610814675</string>
+    <string name="perfect_data">请先完善个人资料</string>
+    <string name="data_full">资料完整度</string>
+    <string name="full0">0%</string>
+    <string name="full100">100%</string>
+    <string name="start_authen">开始认证</string>
+    <string name="authen_prompt_msg">填写真实身份信息有助于您快速通过审核</string>
+    <string name="auto_recogni_identity">身份证自动识别</string>
+    <string name="certification">实名认证更快捷</string>
+    <string name="identity_name">身份证名称</string>
+    <string name="identity_code">身份证号</string>
+    <string name="resident_address">常住地址</string>
+    <string name="province">省/市</string>
+    <string name="county">/区</string>
+    <string name="detailed_address">详细到门牌号</string>
+    <string name="highest_education">最高学历</string>
+    <string name="please_select">请选择</string>
+    <string name="marital_status">婚姻状况</string>
+    <string name="submit_btn">提交</string>
+    <string name="career_type">职业类型</string>
+    <string name="unit_name">单位名称</string>
+    <string name="unit_address">单位地址</string>
+    <string name="contact_number">联系电话</string>
+    <string name="place">职\t\t位</string>
+    <string name="monthly_income">月收入</string>
+    <string name="can_finish">完成前4项资料，即可发起借款</string>
+    <string name="lineal_relatives">直系联系人</string>
+    <string name="lineal_relation">关系</string>
+    <string name="lineal_name">姓名</string>
+    <string name="tv_lineal_phone">电话</string>
+    <string name="important_relat">重要联系人</string>
+    <string name="important_relation">关系</string>
+    <string name="important_name">姓名</string>
+    <string name="tv_important_phone">电话</string>
+    <string name="complete_any">完成任一认证，即可发起借款</string>
+    <string name="credit_card_data">信用卡信息</string>
+    <string name="cell_phone_num">手机号认证</string>
+    <string name="verifica_only">信息加密处理，仅做身份验证使用</string>
+    <string name="proof_data">证明材料</string>
+    <string name="address_info">住址信息</string>
+    <string name="urgent_contacts">紧急联系人</string>
+    <string name="is_certified">未认证</string>
+    <string name="no_credit_card">暂无信用卡</string>
+    <string name="add_credit_card">可点击右上角“添加”</string>
+    <string name="card_number">卡号</string>
+    <string name="my_credit_card_number">本人信用卡号</string>
+    <string name="issuing_bank">发卡银行</string>
+    <string name="credit_limit">信用额度</string>
+    <string name="height_credit_limit">最高信用额度</string>
+    <string name="term_validity">有效期</string>
+    <string name="years">年</string>
+    <string name="months">月/</string>
+    <string name="phone_number">手机号码</string>
+    <string name="server_psd">服务密码</string>
+    <string name="modify_service_psd">忘记服务密码?去修改</string>
+    <string name="proof_data_deg">0/3</string>
+    <string name="uncommitted">未提交</string>
+    <string name="real_info">请填写本人真实信息</string>
+    <string name="work_proof">工作证明</string>
+    <string name="financial_proof">财力证明</string>
+    <string name="education_proof">学历证明</string>
+    <string name="word_can_upload"> 可上传以下资料中任意一种:\nA.本人姓名以及公司名称的名片或工牌；\nB.本人在公司商标旁、在工作地点中的合照或者显示自己姓名的工位；\nC.自己职业的职业资格证书（如教师资格证,护士资格证）;\nD.本人姓名在有效期内的劳动合同或者工作证明；\nE.显示最近三个月本人姓名的工资单或者银行流水;</string>
+    <string name="proof_material">证明材料</string>
+    <string name="financial_can_upload">请提供本人近3个月的社保界面（仅限上海）查询地址 \nhttp://www.12333sh.gov.cn/sbsjb/wzb/226.jsp</string>
+    <string name="educa_can_upload">请提供可证明学历的毕业证书，如：毕业证、学位证书。</string>
+    <string name="home_phone">住址电话</string>
+    <string name="fixed_number">区号+固定号码</string>
+    <string name="contacts_1">联系人1</string>
+    <string name="contacts_1_relation">关系</string>
+    <string name="contacts_1_name">联系人1姓名</string>
+    <string name="tv_contacts_1_phone">联系人1电话</string>
+    <string name="contacts_2">联系人2</string>
+    <string name="contacts_2_relation">关系</string>
+    <string name="contacts_2_name">联系人2姓名</string>
+    <string name="contacts_2_phone">联系人2电话</string>
+    <string name="contacts_3">联系人3</string>
+    <string name="contacts_3_relation">关系</string>
+    <string name="contacts_3_name">联系人3姓名</string>
+    <string name="contacts_3_phone">联系人3电话</string>
+    <string name="career_type1">请</string>
+    <string name="career_type2">选择</string>
+    <string name="computa_privilege">您只有一次计算特权，计算额度后，即可发起借款。</string>
+    <string name="calcula_limit">计算额度</string>
+    <string name="calcula_data">完善资料</string>
+    <string name="amount_help">完善更多资料有助您获得更多的额度。</string>
+    <string name="ple_phone_number">请输入手机号</string>
+    <string name="verifica_code">验证码</string>
+    <string name="send_ver_code">发送验证码</string>
+    <string name="cannot_receive_code">收不到验证码？</string>
+    <string name="setting_psd">设置密码(6-10位英文字母数字组合)</string>
+    <string name="invita_code">输入邀请码免费借款</string>
+    <string name="btn_register">注册</string>
+    <string name="agreement">点击注册按钮表示同意《用户注册协议》和《隐私政策》</string>
+    <string name="new_psd">新密码(6-10位英文字母数字组合)</string>
+
+    <!--拍照多张上传 photopicker-->
+    <string name="all_image">所有图片</string>
+    <string name="preview">预览</string>
+    <string name="msg_amount_limit">已经达到最高选择数量</string>
+    <string name="image">图片</string>
+    <string name="msg_no_camera">无法启用系统相机</string>
+    <string name="done_with_count">完成(%1$d/%2$d)</string>
+    <string name="done">完成</string>
+    <string name="delete">删除</string>
+    <string name="image_index">%1$d/%2$d</string>
+    <string name="deleted_a_photo">删除了一张图片</string>
+    <string name="confirm_to_delete">确认删除？</string>
+    <string name="yes">确定</string>
+    <string name="cancel">取消</string>
+    <string name="undo">撤消</string>
+    <!--单张上传-->
+    <string name="camera">拍照</string>
+    <string name="album">相册</string>
+
+</resources>
