@@ -16,8 +16,8 @@
   <component name="ProjectType">
     <option name="id" value="Android" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration>C:\Users\13739\AppData\Roaming\Subversion</configuration>
+  <component name="SvnConfiguration" myUseAcceleration="nothing">
+    <configuration useDefault="false">C:\Users\13739\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="masterDetails">
     <states>
